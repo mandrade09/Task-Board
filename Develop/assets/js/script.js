@@ -1,6 +1,6 @@
 // Retrieve tasks and nextId from localStorage
-let taskList = JSON.parse(localStorage.getItem("tasks"));
-let nextId = JSON.parse(localStorage.getItem("nextId"));
+let taskList = JSON.parse(localStorage.getItem("tasks")) || [];
+let nextId = JSON.parse(localStorage.getItem("nextId")) || 1;
 
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
@@ -110,6 +110,6 @@ $(document).ready(function () {
     });
   
     $("#deadline").datepicker({
-      dateFormat: "yy-mm-dd"
+      dateFormat: "mm-dd-yy"
     });
   });
