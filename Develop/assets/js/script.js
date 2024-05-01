@@ -15,7 +15,7 @@ function createTaskCard(task) {
         <div class="card-body">
           <h5 class="card-title">${title}</h5>
           <p class="card-text">${description}</p>
-          <p class="card-text"><strong>Deadline:</strong> ${dayjs(deadline).format('YYYY-MM-DD')}</p>
+          <p class="card-text"><strong>Deadline:</strong> ${dayjs(deadline).format('MM-DD-YYYY')}</p>
           <button class="btn btn-danger btn-sm delete-btn"><i class="fas fa-trash"></i></button>
         </div>
       </div>
@@ -110,6 +110,6 @@ $(document).ready(function () {
     });
   
     $("#deadline").datepicker({
-      dateFormat: "mm-dd-yy"
+      dateFormat: "yy-mm-dd"
     });
   });
