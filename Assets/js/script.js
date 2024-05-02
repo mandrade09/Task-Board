@@ -23,6 +23,9 @@ function createTaskCard(task) {
     return taskCard;
   }
 
+
+  // LOOK AT DUE DATE WITH BG-WARNING AND BG-DANGER . . . dayjs()  ; it's on card
+
 // Todo: create a function to render the task list and make cards draggable
 function renderTaskList() {
     $("#todo-cards").empty();
