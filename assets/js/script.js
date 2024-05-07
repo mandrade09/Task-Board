@@ -21,6 +21,7 @@ function createTaskCard(task) {
       </div>
     `);
 
+    // function for color rendering
     if (task.deadline && task.status !== 'done') {
     const now = dayjs();
     const taskDueDate = dayjs(task.dueDate, 'MM-DD-YYYY');
@@ -28,7 +29,6 @@ function createTaskCard(task) {
       taskCard.addClass('bg-warning text-white');
     } else if (now.isAfter(taskDueDate)) {
       taskCard.find('.card-body').addClass('bg-danger text-white');
-      // Corrected adding border class to .delete-btn
       taskCard.find('.delete-btn').addClass('border-light');
     }
   }
