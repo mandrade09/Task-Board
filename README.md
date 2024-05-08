@@ -55,6 +55,7 @@ Hope you enjoyed reviewing the Blog!  Go ahead and try it out!
 
 ![Task Board View](<Assets/images/Task Board Screenshot 2.jpeg>)
 
+![Task Board Deadline Color Variance](<Assets/images/Task Board Screenshot 3.jpeg>)
 
 ## Contact Information
 Thanks for visiting!

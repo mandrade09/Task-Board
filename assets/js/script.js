@@ -24,7 +24,7 @@ function createTaskCard(task) {
     // function for color rendering
     if (task.deadline && task.status !== 'done') {
     const now = dayjs();
-    const taskDueDate = dayjs(task.dueDate, 'MM-DD-YYYY');
+    const taskDueDate = dayjs(task.deadline, 'MM-DD-YYYY');
     if (now.isSame(taskDueDate, 'day')) {
       taskCard.addClass('bg-warning text-white');
     } else if (now.isAfter(taskDueDate)) {
@@ -32,16 +32,9 @@ function createTaskCard(task) {
       taskCard.find('.delete-btn').addClass('border-light');
     }
   }
-
     return taskCard;
-
     
   }
-
-
-  // Fix Color rending depending on due date.
-
-
 
 
 // Todo: create a function to render the task list and make cards draggable
