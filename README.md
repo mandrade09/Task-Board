@@ -51,11 +51,10 @@ Hope you enjoyed reviewing the Blog!  Go ahead and try it out!
 
 ## Project View
 
-![Add Task View](<Assets/images/Task Board Screenshot.jpeg>)
+![Task Board Screenshot 1](<assets/images/Task Board Screenshot.jpeg>)
+![Task Board Screenshot 2](<assets/images/Task Board Screenshot 2.jpeg>)
+![Task Board Screenshot 3](<assets/images/Task Board Screenshot 3.jpeg>)
 
-![Task Board View](<Assets/images/Task Board Screenshot 2.jpeg>)
-
-![Task Board Deadline Color Variance](<Assets/images/Task Board Screenshot 3.jpeg>)
 
 ## Contact Information
 Thanks for visiting!
